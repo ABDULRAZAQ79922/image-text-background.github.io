@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f8ff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    text-align: center;
+    background: linear-gradient(to bottom right, #15c7e7, #95d8e7);
+    border-radius: 15px;
+    padding: 50px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+.container:hover  {
+    
+    background: linear-gradient(to bottom right, #eb55b9, #f19ed4);
+    transition: all 1s ease-in-out;
+    transform: translateY(-50px);
+}
+
+h1 {
+    font-size: 7em;
+    font-weight: 900;
+    background: url('bg.jpeg') no-repeat center;
+    background-size: cover;
+    -webkit-background-clip: text;
+    color: transparent;
+}
